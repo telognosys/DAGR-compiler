@@ -1,0 +1,3 @@
+/home/kali/Proyectos/DAGR/build/CMakeFiles/dagr_compiler.dir
+/home/kali/Proyectos/DAGR/build/CMakeFiles/edit_cache.dir
+/home/kali/Proyectos/DAGR/build/CMakeFiles/rebuild_cache.dir

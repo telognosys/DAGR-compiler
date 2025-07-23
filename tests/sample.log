@@ -1,0 +1,5 @@
+[INFO] Connection established
+[ERROR] DB: Connection failed
+[ERROR] IO: Timeout
+[INFO] Request received
+[ERROR] DB: Transaction aborted

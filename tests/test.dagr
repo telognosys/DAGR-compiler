@@ -1,0 +1,11 @@
+read "../tests/sample.log" as log_file {
+  line = log_file.readLine()
+  when line matches "[ERROR] <type>: <msg>" {
+    emit { tipo: <type>, mensaje: <msg> }
+  }
+}
+
+group emitted by tipo {
+  count()
+  output to "errores.csv"
+}
